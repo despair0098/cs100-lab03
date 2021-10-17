@@ -4,7 +4,7 @@
 
 int main() {
     PersonList theList;
-
+	
     theList.addPerson("Bob", "Mark", "Betty");
     theList.addPerson("Jim", "Bob", "Sally");
     theList.addPerson("Frank", "Jim", "Mary");
@@ -14,7 +14,7 @@ int main() {
     theList.printLineage("Jim");
     theList.printLineage("Kim");
     theList.printLineage("Betty");
-
+    
     return 0;
 } 
 
